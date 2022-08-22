@@ -5,7 +5,7 @@ Author - Udhai Pratap Singh
 For detailed analysis in jupyter notebook, please refer: https://github.com/audi0786/dsc-phase-2-project.git
 
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-campus/master/halfway-there.gif)
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/House.webp)
 
 
 ## Project Overview
@@ -53,14 +53,25 @@ See regresssion analysis results of various iterations:
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/results%20of%2011%20iterations.jpg)
 
 
+As you can see, to demonstrate the impact of each type of features among continous, discrete, categorical and polynomials; I have added 
+them in a separate iteration and shown the impact of this features - standalone - before adding them to the bigger dataset with other variable. 
+
+Our final model is represented by iteration no 10 of this image, which has an test_r2 value of 0.891607 which is considered a high value and
+predicts the dependant variable price_norm high degree of accuaracy; even for the unseen test data. 
+
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/Final_model_traininig_set_predictions.png)
+
+Our model seems to be a pretty good fit for the training set. 
 
 
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/Final_model_validation_set_predictions.png)
+
+Our model fits the validation set very well. Since, we have performaed cross validation with cv=5, so this kind of fits is considered pretty good for our analysis. 
 
 
+A look at the residuals against our predicated values confirms heteroskedasticity. 
 
-
-
-
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/Residual_plot_training__Validation_sets_final_model.png)
 
 
 
