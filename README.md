@@ -95,6 +95,18 @@ We have used Recursive Feature elimination from sklearn to find our top 10 featu
 
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/top%2010%20feat%20with%20coefficients.jpg)
 
+Since all these 10 features except date have been scale and rough belong to the same scale and hence their coefficients are 
+indicative of their relationships with our dependant variable price_norm (actual prices - normalized). 
+
+We can also see a lot of these features relates to renovation and waterfront. Hence, we can say that renovation and waterfront 
+have strong predictive relationship with house prices. Since coefficient for both renovation_1.0 and waterfront_1.0 are 
+positive hence having a renovation will likely increase house price. 
+
+While, waterfront is not something an individual customer can influence but if someone is prospecting to buy a house with a 
+waterfront; then they should know that houses with a waterfront comes at a premium. 
+
+
+
 
 ## Summary
 
