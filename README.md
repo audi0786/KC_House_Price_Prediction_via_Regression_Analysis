@@ -19,6 +19,8 @@ This project uses the King County House Sales dataset, which can be found in  `k
 
 
 
+
+
 ### Business Problem
 
 Prime House Agency is a renowned real estate agency active in the King County and they want help in giving prospective clients advice 
@@ -91,6 +93,7 @@ We have used Recursive Feature elimination from sklearn to find our top 10 featu
 9. sqft_living15
 10. date 
 
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/top%2010%20feat%20with%20coefficients.jpg)
 
 
 ## Summary
