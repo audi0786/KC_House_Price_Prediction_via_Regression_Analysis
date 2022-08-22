@@ -78,8 +78,18 @@ A look at the residuals against our predicated values confirms heteroskedasticit
 
 
 ## Top features for predicting house prices:
+We have used Recursive Feature elimination from sklearn to find our top 10 features, these are:
 
-
+1. Renovation_1.0 - which represents houses which are renovated
+2. waterfront_1.0 - which represents a house with a waterfront
+3. zipcode_98039
+4. year_sold
+5. Renovation_1.0-s2_norm - represents the squaring and normalizing of the Renovation_1.0 feature we created
+6. Renovation_1.0-Sq_norm - represents the squar root and nromalizing Renovation_1.0 feature we created
+7. waterfront_1.0-s2_norm
+8. waterfront_1.0-Sq_norm
+9. sqft_living15
+10. date 
 
 
 
@@ -102,11 +112,10 @@ This repo has only one master branch.
 ├── Data
 ├── CONTRIBUTING.md
 ├── images
-├── 
-├── 
+├── README.md
+├── notebook.pdf
 ├── LICENCE.md
 ├── King_County_House_Prices_Prediction.ipynb
 └── Presentation.pdf
-├── README.md
-├── notebook.pdf
+
 
