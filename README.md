@@ -122,15 +122,8 @@ For additional info, please contact Udhai P Singh at singhudhai16@gmail.com.
 Repository Structure
 This repo has only one master branch.
 
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/repo%20structure.png)
 
-├── .ipynb_checkpoints
-├── Data
-├── CONTRIBUTING.md
-├── images
-├── README.md
-├── notebook.pdf
-├── LICENCE.md
-├── King_County_House_Prices_Prediction.ipynb
-└── Presentation.pdf
+
 
 
