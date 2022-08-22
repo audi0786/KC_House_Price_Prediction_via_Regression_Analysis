@@ -50,7 +50,8 @@ Also includes features scaling, normalizing, and splitting data in continuous, d
 We took an iterative approach to find the best features which will help us solve our business problem. 
 See regresssion analysis results of various iterations:
 
-!XXXXXX link to be added
+!(https://github.com/audi0786/dsc-phase-2-project/blob/main/images/results%20of%2011%20iterations.jpg)
+
 
 
 
