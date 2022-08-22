@@ -122,7 +122,7 @@ For additional info, please contact Udhai P Singh at singhudhai16@gmail.com.
 Repository Structure
 This repo has only one master branch.
 
-![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/repo%20structure.png)
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/repo%20structure.jpg)
 
 
 
