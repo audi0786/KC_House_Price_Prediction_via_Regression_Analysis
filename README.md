@@ -19,8 +19,6 @@ This project uses the King County House Sales dataset, which can be found in  `k
 
 
 
-
-
 ### Business Problem
 
 Prime House Agency is a renowned real estate agency active in the King County and they want help in giving prospective clients advice 
@@ -85,8 +83,6 @@ A look at the residuals against our predicated values confirms heteroskedasticit
 
 
 
-
-
 ## Top features for predicting house prices:
 We have used Recursive Feature elimination from sklearn to find our top 10 features, these are:
 
@@ -113,12 +109,15 @@ positive hence having a renovation will likely increase house price.
 While, waterfront is not something an individual customer can influence but if someone is prospecting to buy a house with a 
 waterfront; then they should know that houses with a waterfront comes at a premium. 
 
+## TLDT - Key takeaway
 
+1. If a house has waterfront then it likely to fetch a higher price than a house without it, in the same zip code
 
+2. If a house has renovation – then it is likely to fetch a higher price than a house without it!!
 
-## Summary
+3. If the prospective house is below the line of fit shown before, then your house has probably scope of price appreciation and one measure which can be taken is renovation!!
 
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+4. We can fill in the required info on a house (not in this dataset) and see where it lies in our prediction graph and then gauge the extent of under/over pricing. 
 
 
 
