@@ -86,30 +86,20 @@ A look at the residuals against our predicated values confirms heteroskedasticit
 ## Top features for predicting house prices:
 We have used Recursive Feature elimination from sklearn to find our top 10 features, these are:
 
-1. Renovation_1.0 - which represents houses which are renovated
-2. waterfront_1.0 - which represents a house with a waterfront
-3. zipcode_98039
-4. year_sold
-5. Renovation_1.0-s2_norm - represents the squaring and normalizing of the Renovation_1.0 feature we created
-6. Renovation_1.0-Sq_norm - represents the squar root and nromalizing Renovation_1.0 feature we created
-7. waterfront_1.0-s2_norm
-8. waterfront_1.0-Sq_norm
-9. sqft_living15
-10. date 
 
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/top%2010%20feat%20with%20coefficients.jpg)
 
-Since all these 10 features except date have been scale and rough belong to the same scale and hence their coefficients are 
+Since all these 10 features are scaledand rough belong to the same scale and hence their coefficients are 
 indicative of their relationships with our dependant variable price_norm (actual prices - normalized). 
 
 We can also see a lot of these features relates to renovation and waterfront. Hence, we can say that renovation and waterfront 
-have strong predictive relationship with house prices. Since coefficient for both renovation_1.0 and waterfront_1.0 are 
+have strong predictive relationship with house prices. Since coefficient for both renovation_1.0_s2_norm and waterfront_1.0 are 
 positive hence having a renovation will likely increase house price. 
 
 While, waterfront is not something an individual customer can influence but if someone is prospecting to buy a house with a 
-waterfront; then they should know that houses with a waterfront comes at a premium. 
+waterfront; then they should know that houses with a waterfront comes at a premium. Corrollory is that, if someone is selling a house, they should be expecting a premium for their house. Premium to what extent, can be answered by our model by fitting that house in our linreg model.
 
-## TLDT - Key takeaway
+## TLDR- Key takeaway
 
 1. If a house has waterfront then it likely to fetch a higher price than a house without it, in the same zip code
 
@@ -126,10 +116,15 @@ See the full analysis in the Jupyter Notebookat https://github.com/audi0786/dsc-
 
 For additional info, please contact Udhai P Singh at singhudhai16@gmail.com.
 
+
 Repository Structure
 This repo has only one master branch.
 
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/repo%20structure.jpg)
+
+
+The data folder contains the following files:
+![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/data%20folder.png)
 
 
 
