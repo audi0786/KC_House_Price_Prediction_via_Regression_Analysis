@@ -70,6 +70,14 @@ Our model seems to be a pretty good fit for the training set.
 
 Our model fits the validation set very well. Since, we have performaed cross validation with cv=5, so this kind of fits is considered pretty good for our analysis. 
 
+This graph answers our third business problem, whether the house is overpriced or not. If a prospective buyer is considering buying a 
+particular house, then our stakeholders might already have the predicted house price of that particular house in this dataset. 
+
+In that case, our stakeholder can simply check whether that particular house is below or above the red line in the graph above. 
+If its a house that has not been sold in 2014 and 2015 then that house will not be part of this dataset. In that case, we would 
+fit the features values of the house of interest in our model and we can then guide our prospective client based on whether the 
+price is above or below the red-line. 
+
 
 A look at the residuals against our predicated values confirms heteroskedasticity. 
 
