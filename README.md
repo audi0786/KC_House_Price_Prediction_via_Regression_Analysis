@@ -124,6 +124,8 @@ This repo has only one master branch.
 
 
 The data folder contains the following files:
+
+
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/data%20folder.png)
 
 
