@@ -114,7 +114,14 @@ waterfront; then they should know that houses with a waterfront comes at a premi
 ##  More Information
 See the full analysis in the Jupyter Notebookat https://github.com/audi0786/dsc-phase-2-project.git
 
-For additional info, please contact Udhai P Singh at singhudhai16@gmail.com.
+For additional info, please contact Udhai P Singh at singhudhai16@gmail.com
+
+
+
+## Badges
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 
 
 Repository Structure
