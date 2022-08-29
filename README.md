@@ -2,7 +2,6 @@
 
 Author - Udhai Pratap Singh
 
-For detailed analysis in jupyter notebook, please refer: https://github.com/audi0786/dsc-phase-2-project.git
 
 
 ![awesome](https://github.com/audi0786/dsc-phase-2-project/blob/main/images/House.webp)
